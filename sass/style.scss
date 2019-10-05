@@ -1,0 +1,35 @@
+/*Variables*/
+
+
+
+/*Global*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: ;
+  color: ;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.section-title {
+  font-size: 48px;
+  margin: 0 0 72px 0;
+}

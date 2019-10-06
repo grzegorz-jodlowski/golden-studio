@@ -33,10 +33,18 @@ section .section-title {
 .splash {
   background-image: url(/images/splash.png);
   height: 100vh;
+  position: relative;
 }
 
-.navigation {
-  background: transparent;
+.splash::before {
+  content: "";
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.5;
 }
 
 .logo {
@@ -45,6 +53,7 @@ section .section-title {
   color: #FED136;
   height: 50px;
   margin-top: 30px;
+  letter-spacing: 2px;
 }
 
 .menu {

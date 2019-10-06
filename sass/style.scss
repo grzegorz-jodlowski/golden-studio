@@ -39,6 +39,9 @@ section {
     font-family: $font-family-page;
     font-weight: bold;
     line-height: 1;
+    @media (max-width: 600px) {
+      font-size: 32px;
+    }
   }
   .section-subtitle {
     font-size: 16px;
@@ -52,9 +55,7 @@ section {
 
 .section-items {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  //flex-flow: row, wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -127,6 +128,12 @@ header {
       font-family: $font-family-splash-subtitle;
       text-align: center;
       margin: 0 auto;
+      @media (max-width: 768px) {
+        font-size: 24px;
+      }
+      @media (max-width: 600px) {
+        font-size: 18px;
+      }
     }
     .splash-title {
       font-size: 75px;
@@ -134,6 +141,12 @@ header {
       font-weight: bold;
       text-align: center;
       margin: 0 auto;
+      @media (max-width: 768px) {
+        font-size: 48px;
+      }
+      @media (max-width: 600px) {
+        font-size: 24px;
+      }
     }
     .button-main {
       font-size: 18px;
@@ -150,6 +163,14 @@ header {
       border-radius: 5px;
       cursor: pointer;
       letter-spacing: 1px;
+      @media (max-width: 768px) {
+        width: 200px;
+        height: 60px;
+      }
+      @media (max-width: 600px) {
+        width: 160px;
+        height: 50px;
+      }
     }
   }
 }
@@ -158,17 +179,17 @@ header {
 
 .services-item {
   text-align: center;
-    i {
-      height: 70px;
-      width: 70px;
-      border-radius: 50%;
-      border: 3px solid $text-logo-color;
-      font-size: 34px;
-      line-height: 70px;
-      color: $text-logo-color;
-      background: #FFF;
-      text-align: center;
-    }
+  i {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid $text-logo-color;
+    font-size: 34px;
+    line-height: 70px;
+    color: $text-logo-color;
+    background: #fff;
+    text-align: center;
+  }
 
   .services-item-title {
     font-size: 18px;
@@ -192,6 +213,13 @@ header {
     flex: 0 0 30%;
     background: #fff;
     margin-bottom: 40px;
+    @media (max-width: 768px) {
+      flex: 0 0 45%;
+    }
+    @media (max-width: 600px) {
+      flex: 0 0 95%;
+    }
+
     img {
       height: 300px;
       width: 100%;
@@ -228,14 +256,30 @@ header {
   align-items: center;
   height: 100px;
   position: relative;
+  @media (max-width: 768px) {
+    position: static;
+  }
   .footer-description {
     position: absolute;
     left: 0;
     font-size: 14px;
+    @media (max-width: 768px) {
+      flex: 0 0 100%;
+      position: static;
+      text-align: center;
+    }
+  }
+
+  .social-icons {
+    @media (max-width: 768px) {
+      flex: 0 0 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
   }
   a {
     font-size: 0;
-    color: #FFF;
+    color: #fff;
     margin-right: 5px;
     i {
       font-size: 18px;

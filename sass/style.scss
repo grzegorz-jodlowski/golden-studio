@@ -1,13 +1,11 @@
 /*Variables*/
-$text-light-color: #FFFFFF;
-$text-logo-color: #FED136;
-$font-family-page: 'Montserrat', sans-serif;
-$font-family-logo: 'Great Vibes', cursive;
-$font-family-splash-subtitle: 'Playfair Display', serif;
-$font-family-card-heading: 'Roboto Slab', serif;
-$main-button-color: #FED136;
-
-
+$text-light-color: #ffffff;
+$text-logo-color: #fed136;
+$font-family-page: "Montserrat", sans-serif;
+$font-family-logo: "Great Vibes", cursive;
+$font-family-splash-subtitle: "Playfair Display", serif;
+$font-family-card-heading: "Roboto Slab", serif;
+$main-button-color: #fed136;
 
 /*Global*/
 
@@ -22,7 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-size: 14px;
-  font-family: $font-family-page
+  font-family: $font-family-page;
 }
 
 .container {
@@ -52,7 +50,13 @@ section {
   }
 }
 
-
+.section-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  //flex-flow: row, wrap;
+  justify-content: space-between;
+}
 
 /*Splash section*/
 
@@ -105,7 +109,6 @@ section {
   .menu-item-last {
     margin-right: 0;
   }
-
 }
 
 header {
@@ -149,41 +152,69 @@ header {
       letter-spacing: 1px;
     }
   }
-
 }
 
 /*Services section*/
 
-.section-items {
+.services-item {
+  text-align: center;
+  .icon-circe {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid $text-logo-color;
+    margin: 0 auto;
 
-    .services-item {
+    i {
+      font-size: 36px;
+      margin: auto;
+      line-height: 67px;
+      height: 67px;
+      width: 67px;
+      color: $text-logo-color;
+    }
+  }
+  .services-item-title {
+    font-size: 18px;
+    font-family: $font-family-page;
+    font-weight: bold;
+  }
+  p {
+    font-size: 14px;
+    font-family: $font-family-card-heading;
+    color: #777777;
+  }
+}
+
+/*Portfolio section*/
+
+.portfolio {
+  background: #f7f7f7;
+
+  .portfolio-item {
+    height: 400px;
+    flex: 0 0 30%;
+    background: #FFF;
+    margin-bottom: 40px;
+    img {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .portfolio-item-inner {
       text-align: center;
-      .icon-circe {
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-        border: 3px solid $text-logo-color;
-        margin: 0 auto;
-
-        i {
-          font-size: 36px;
-          margin: auto;
-          line-height: 67px;
-          height: 67px;
-          width: 67px;
-          color: $text-logo-color;
-        }
-      }
-      .services-item-title {
+      h3 {
+        margin: 20px 0 0 0;
         font-size: 18px;
         font-family: $font-family-page;
         font-weight: bold;
-
       }
       p {
+        margin: 0;
         font-size: 14px;
-        font-family: $font-family-card-heading;
-        color: #777777;
+        font-family: $font-family-page;
+        font-style: italic;
       }
     }
+  }
 }

@@ -43,6 +43,17 @@ section .section-subtitle {
   font-style: italic;
 }
 
+.section-items {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
 /*Splash section*/
 .splash {
   background-image: url(/images/splash.png);
@@ -65,7 +76,7 @@ section .section-subtitle {
 .logo {
   font-family: "Great Vibes", cursive;
   font-size: 26px;
-  color: #FED136;
+  color: #fed136;
   height: 50px;
   margin-top: 30px;
   letter-spacing: 2px;
@@ -91,7 +102,7 @@ section .section-subtitle {
 
 .menu .menu-item a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -113,7 +124,7 @@ header {
 }
 
 header .splash-inner {
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 10;
 }
 
@@ -140,8 +151,8 @@ header .splash-inner .button-main {
   text-transform: uppercase;
   margin: 0 auto;
   display: block;
-  color: #FFFFFF;
-  background: #FED136;
+  color: #ffffff;
+  background: #fed136;
   border: none;
   width: 240px;
   height: 70px;
@@ -152,36 +163,74 @@ header .splash-inner .button-main {
 }
 
 /*Services section*/
-.section-items .services-item {
+.services-item {
   text-align: center;
 }
 
-.section-items .services-item .icon-circe {
+.services-item .icon-circe {
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  border: 3px solid #FED136;
+  border: 3px solid #fed136;
   margin: 0 auto;
 }
 
-.section-items .services-item .icon-circe i {
+.services-item .icon-circe i {
   font-size: 36px;
   margin: auto;
   line-height: 67px;
   height: 67px;
   width: 67px;
-  color: #FED136;
+  color: #fed136;
 }
 
-.section-items .services-item .services-item-title {
+.services-item .services-item-title {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
-.section-items .services-item p {
+.services-item p {
   font-size: 14px;
   font-family: "Roboto Slab", serif;
   color: #777777;
+}
+
+/*Portfolio section*/
+.portfolio {
+  background: #f7f7f7;
+}
+
+.portfolio .portfolio-item {
+  height: 400px;
+  -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
+  background: #FFF;
+  margin-bottom: 40px;
+}
+
+.portfolio .portfolio-item img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio .portfolio-item .portfolio-item-inner {
+  text-align: center;
+}
+
+.portfolio .portfolio-item .portfolio-item-inner h3 {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.portfolio .portfolio-item .portfolio-item-inner p {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */

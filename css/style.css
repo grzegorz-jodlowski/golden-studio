@@ -29,7 +29,7 @@ section .section-title {
   margin: 0 0 72px 0;
 }
 
-/*Navigation*/
+/*Splash section and navigation*/
 .splash {
   background-image: url(/images/splash.png);
   height: 100vh;
@@ -85,5 +85,54 @@ section .section-title {
 
 .menu .menu-item-last {
   margin-right: 0;
+}
+
+header {
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+header .splash-inner {
+  color: #FFFFFF;
+  z-index: 10;
+}
+
+header .splash-inner .splash-subtitle {
+  font-size: 28px;
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header .splash-inner .splash-title {
+  font-size: 75px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header .splash-inner .button-main {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+  color: #FFFFFF;
+  background: #FED136;
+  border: none;
+  width: 240px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=style.css.map */

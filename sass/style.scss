@@ -156,5 +156,34 @@ header {
 
 .section-items {
 
+    .services-item {
+      text-align: center;
+      .icon-circe {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 3px solid $text-logo-color;
+        margin: 0 auto;
 
+        i {
+          font-size: 36px;
+          margin: auto;
+          line-height: 67px;
+          height: 67px;
+          width: 67px;
+          color: $text-logo-color;
+        }
+      }
+      .services-item-title {
+        font-size: 18px;
+        font-family: $font-family-page;
+        font-weight: bold;
+
+      }
+      p {
+        font-size: 14px;
+        font-family: $font-family-card-heading;
+        color: #777777;
+      }
+    }
 }

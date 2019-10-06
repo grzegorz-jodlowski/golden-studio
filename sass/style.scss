@@ -158,35 +158,18 @@ header {
 
 .services-item {
   text-align: center;
-  .icon-circe {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border: 3px solid $text-logo-color;
-    margin: 0 auto;
-
     i {
-      font-size: 36px;
-      margin: auto;
-      line-height: 67px;
-      height: 67px;
-      width: 67px;
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      border: 3px solid $text-logo-color;
+      font-size: 34px;
+      line-height: 70px;
       color: $text-logo-color;
+      background: #FFF;
+      text-align: center;
     }
-    // a {
-    //   font-size: 0;
-    //   color: #FFF;
-    //   margin-right: 5px;
-    //   i {
-    //     font-size: 18px;
-    //     background: #000;
-    //     border-radius: 50%;
-    //     height: 42px;
-    //     width: 42px;
-    //     line-height: 42px;
-    //     text-align: center;
-    //   }
-  }
+
   .services-item-title {
     font-size: 18px;
     font-family: $font-family-page;

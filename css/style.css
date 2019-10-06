@@ -167,21 +167,16 @@ header .splash-inner .button-main {
   text-align: center;
 }
 
-.services-item .icon-circe {
+.services-item i {
   height: 70px;
   width: 70px;
   border-radius: 50%;
   border: 3px solid #fed136;
-  margin: 0 auto;
-}
-
-.services-item .icon-circe i {
-  font-size: 36px;
-  margin: auto;
-  line-height: 67px;
-  height: 67px;
-  width: 67px;
+  font-size: 34px;
+  line-height: 70px;
   color: #fed136;
+  background: #FFF;
+  text-align: center;
 }
 
 .services-item .services-item-title {

@@ -194,7 +194,7 @@ header {
   .portfolio-item {
     height: 400px;
     flex: 0 0 30%;
-    background: #FFF;
+    background: #fff;
     margin-bottom: 40px;
     img {
       height: 300px;
@@ -216,5 +216,28 @@ header {
         font-style: italic;
       }
     }
+  }
+}
+
+/*Footer*/
+
+.page-footer {
+  height: 100px;
+}
+
+.footer-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: relative;
+  .footer-description {
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+  }
+  .social-icons {
+
   }
 }

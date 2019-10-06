@@ -205,7 +205,7 @@ header .splash-inner .button-main {
   height: 400px;
   -ms-flex: 0 0 30%;
       flex: 0 0 30%;
-  background: #FFF;
+  background: #fff;
   margin-bottom: 40px;
 }
 
@@ -232,5 +232,29 @@ header .splash-inner .button-main {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
+}
+
+/*Footer*/
+.page-footer {
+  height: 100px;
+}
+
+.footer-items {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100px;
+  position: relative;
+}
+
+.footer-items .footer-description {
+  position: absolute;
+  left: 0;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */

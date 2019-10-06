@@ -257,4 +257,20 @@ header .splash-inner .button-main {
   left: 0;
   font-size: 14px;
 }
+
+.footer-items a {
+  font-size: 0;
+  color: #FFF;
+  margin-right: 5px;
+}
+
+.footer-items a i {
+  font-size: 18px;
+  background: #000;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

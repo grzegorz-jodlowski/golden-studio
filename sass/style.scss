@@ -173,6 +173,19 @@ header {
       width: 67px;
       color: $text-logo-color;
     }
+    // a {
+    //   font-size: 0;
+    //   color: #FFF;
+    //   margin-right: 5px;
+    //   i {
+    //     font-size: 18px;
+    //     background: #000;
+    //     border-radius: 50%;
+    //     height: 42px;
+    //     width: 42px;
+    //     line-height: 42px;
+    //     text-align: center;
+    //   }
   }
   .services-item-title {
     font-size: 18px;
@@ -237,7 +250,18 @@ header {
     left: 0;
     font-size: 14px;
   }
-  .social-icons {
-
+  a {
+    font-size: 0;
+    color: #FFF;
+    margin-right: 5px;
+    i {
+      font-size: 18px;
+      background: #000;
+      border-radius: 50%;
+      height: 42px;
+      width: 42px;
+      line-height: 42px;
+      text-align: center;
+    }
   }
 }

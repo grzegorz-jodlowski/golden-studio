@@ -207,6 +207,15 @@ header .splash-inner .button-main {
 /*Services section*/
 .services-item {
   text-align: center;
+  -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
+}
+
+@media (max-width: 600px) {
+  .services-item {
+    -ms-flex: 0 0 95%;
+        flex: 0 0 95%;
+  }
 }
 
 .services-item i {

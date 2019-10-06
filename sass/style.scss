@@ -1,5 +1,10 @@
 /*Variables*/
 $text-light-color: #FFFFFF;
+$text-logo-color: #FED136;
+$font-family-page: 'Montserrat', sans-serif;
+$font-family-logo: 'Great Vibes', cursive;
+$font-family-heading: 'Roboto Slab', serif;
+
 
 
 /*Global*/
@@ -15,6 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-size: 14px;
+  font-family: $font-family-page
 }
 
 .container {
@@ -44,18 +50,36 @@ section {
 
 
 }
+.logo {
+  font-family: $font-family-logo;
+  font-size: 26px;
+  color: $text-logo-color;
+  height: 50px;
+  margin-top: 30px;
+}
 .menu {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin-top: 30px;
   .menu-item {
     display: inline-block;
     list-style: none;
     text-transform: uppercase;
     margin-right: 30px;
+
     a {
       text-decoration: none;
       color: $text-light-color;
+      font-family: $font-family-page;
+      font-weight: bold;
+      font-size: 14px;
+      height: 10px;
     }
+  }
+  .menu-item-last {
+    margin-right: 0;
   }
 
 }

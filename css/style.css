@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -38,11 +39,23 @@ section .section-title {
   background: transparent;
 }
 
+.logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 26px;
+  color: #FED136;
+  height: 50px;
+  margin-top: 30px;
+}
+
 .menu {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
       justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 50px;
+  margin-top: 30px;
 }
 
 .menu .menu-item {
@@ -55,5 +68,13 @@ section .section-title {
 .menu .menu-item a {
   text-decoration: none;
   color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  height: 10px;
+}
+
+.menu .menu-item-last {
+  margin-right: 0;
 }
 /*# sourceMappingURL=style.css.map */

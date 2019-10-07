@@ -54,8 +54,8 @@ section .section-subtitle {
   display: flex;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 /*Splash section*/
@@ -136,7 +136,7 @@ section .section-subtitle {
 
 @media (max-width: 600px) {
   .menu-container .menu .menu-item {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 }
 
@@ -281,23 +281,23 @@ header .splash-inner .button-main {
 
 .portfolio .portfolio-item {
   height: 400px;
-  -ms-flex: 0 0 30%;
-      flex: 0 0 30%;
+  -ms-flex: 0 0 28%;
+      flex: 0 0 28%;
   background: #fff;
   margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
   .portfolio .portfolio-item {
-    -ms-flex: 0 0 45%;
-        flex: 0 0 45%;
+    -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
   }
 }
 
 @media (max-width: 600px) {
   .portfolio .portfolio-item {
-    -ms-flex: 0 0 95%;
-        flex: 0 0 95%;
+    -ms-flex: 0 0 90%;
+        flex: 0 0 90%;
   }
 }
 

@@ -16,40 +16,39 @@ $main-button-color: #fed136;
 }
 
 body {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.7;
-  font-size: 14px;
   font-family: $font-family-page;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
 }
 
 .container {
-  max-width: 934px;
   margin: 0 auto;
+  max-width: 934px;
 }
 
 section {
   padding-top: 96px;
   padding-bottom: 96px;
   .section-title {
+    font-family: $font-family-page;
     font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
     margin: 0;
     text-transform: uppercase;
     text-align: center;
-    font-family: $font-family-page;
-    font-weight: bold;
-    line-height: 1;
     @media (max-width: 600px) {
       font-size: 32px;
     }
   }
   .section-subtitle {
+    color: #777777;
     font-size: 16px;
+    font-style: italic;
+    font-family: $font-family-card-heading;
     margin: 0 0 60px 0;
     text-align: center;
-    font-family: $font-family-card-heading;
-    color: #777777;
-    font-style: italic;
   }
 }
 
@@ -69,12 +68,12 @@ section {
   &::before {
     content: "";
     background: black;
+    height: 100vh;
+    left: 0;
+    opacity: 0.5;
     position: absolute;
     top: 0;
-    left: 0;
-    height: 100vh;
     width: 100%;
-    opacity: 0.5;
   }
 }
 
@@ -85,65 +84,65 @@ section {
   z-index: 100;
 }
 .logo-container {
-  z-index: 100;
   margin-left: 30px;
+  z-index: 100;
   .logo {
+    color: $text-logo-color;
     font-family: $font-family-logo;
     font-size: 26px;
-    color: $text-logo-color;
     height: 50px;
-    margin-top: 30px;
     letter-spacing: 2px;
+    margin-top: 30px;
   }
 }
 .menu-container {
   z-index: 100;
   .menu {
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
+    display: flex;
     height: 50px;
+    justify-content: flex-end;
     margin-top: 30px;
     @media (max-width: 600px) {
+      align-items: center;
       flex-direction: column;
       justify-content: flex-start;
-      align-items: center;
     }
     .menu-item {
       display: inline-block;
       list-style: none;
-      text-transform: uppercase;
       margin-right: 30px;
+      text-transform: uppercase;
       @media (max-width: 600px) {
         margin-bottom: 15px;
       }
       a {
-        text-decoration: none;
         color: $text-light-color;
         font-family: $font-family-page;
         font-weight: bold;
         font-size: 14px;
         height: 10px;
+        text-decoration: none;
       }
     }
   }
 }
 header {
+  align-items: center;
   display: flex;
   height: 70vh;
   justify-content: center;
-  align-items: center;
   .splash-inner {
     color: $text-light-color;
     z-index: 10;
 
     .splash-subtitle {
       font-size: 28px;
-      text-transform: capitalize;
       font-style: italic;
       font-family: $font-family-splash-subtitle;
-      text-align: center;
       margin: 0 auto;
+      text-align: center;
+      text-transform: capitalize;
       @media (max-width: 768px) {
         font-size: 24px;
       }
@@ -152,11 +151,11 @@ header {
       }
     }
     .splash-title {
-      font-size: 75px;
-      text-transform: uppercase;
       font-weight: bold;
-      text-align: center;
+      font-size: 75px;
       margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
       @media (max-width: 768px) {
         font-size: 48px;
       }
@@ -165,27 +164,27 @@ header {
       }
     }
     .button-main {
-      font-size: 18px;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin: 0 auto;
-      display: block;
-      color: $text-light-color;
       background: $main-button-color;
       border: none;
-      width: 240px;
-      height: 70px;
-      margin-top: 20px;
       border-radius: 5px;
+      color: $text-light-color;
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+      height: 70px;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-transform: uppercase;
+      width: 240px;
       cursor: pointer;
       letter-spacing: 1px;
       @media (max-width: 768px) {
-        width: 200px;
         height: 60px;
+        width: 200px;
       }
       @media (max-width: 600px) {
-        width: 160px;
         height: 50px;
+        width: 160px;
       }
     }
   }
@@ -194,32 +193,32 @@ header {
 /*Services section*/
 
 .services-item {
-  text-align: center;
   flex: 0 0 30%;
+  text-align: center;
   @media (max-width: 600px) {
     flex: 0 0 95%;
   }
   i {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border: 3px solid $text-logo-color;
-    font-size: 34px;
-    line-height: 70px;
-    color: $text-logo-color;
     background: #fff;
+    border: 3px solid $text-logo-color;
+    border-radius: 50%;
+    color: $text-logo-color;
+    font-size: 34px;
+    height: 70px;
+    line-height: 70px;
     text-align: center;
+    width: 70px;
   }
 
   .services-item-title {
-    font-size: 18px;
     font-family: $font-family-page;
+    font-size: 18px;
     font-weight: bold;
   }
   p {
-    font-size: 14px;
-    font-family: $font-family-card-heading;
     color: #777777;
+    font-family: $font-family-card-heading;
+    font-size: 14px;
   }
 }
 
@@ -229,9 +228,9 @@ header {
   background: #f7f7f7;
 
   .portfolio-item {
-    height: 400px;
-    flex: 0 0 28%;
     background: #fff;
+    flex: 0 0 28%;
+    height: 400px;
     margin-bottom: 40px;
     @media (max-width: 768px) {
       flex: 0 0 40%;
@@ -242,22 +241,22 @@ header {
 
     img {
       height: 300px;
-      width: 100%;
       object-fit: cover;
+      width: 100%;
     }
     .portfolio-item-inner {
       text-align: center;
       h3 {
-        margin: 20px 0 0 0;
-        font-size: 18px;
         font-family: $font-family-page;
+        font-size: 18px;
         font-weight: bold;
+        margin: 20px 0 0 0;
       }
       p {
-        margin: 0;
-        font-size: 14px;
         font-family: $font-family-page;
+        font-size: 14px;
         font-style: italic;
+        margin: 0;
       }
     }
   }
@@ -270,19 +269,19 @@ header {
 }
 
 .footer-items {
+  align-items: center;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
   height: 100px;
+  justify-content: center;
   position: relative;
   @media (max-width: 768px) {
     position: static;
   }
   .footer-description {
-    position: absolute;
-    left: 0;
     font-size: 14px;
+    left: 0;
+    position: absolute;
     @media (max-width: 768px) {
       flex: 0 0 100%;
       position: static;
@@ -293,22 +292,22 @@ header {
   .social-icons {
     @media (max-width: 768px) {
       flex: 0 0 100%;
-      text-align: center;
       margin-bottom: 30px;
+      text-align: center;
     }
   }
   a {
-    font-size: 0;
     color: #fff;
+    font-size: 0;
     margin-right: 5px;
     i {
-      font-size: 18px;
       background: #000;
       border-radius: 50%;
+      font-size: 18px;
       height: 42px;
-      width: 42px;
       line-height: 42px;
       text-align: center;
+      width: 42px;
     }
   }
 }

@@ -5,7 +5,7 @@
 
 
 # <p align="center">👓 Golden studio</p>
-<p align="center">Project for learning advanced CSS, Node Package Manager and version control system (GIT)</p>
+<p align="center">Project for learning advanced CSS, Node Package Manager and GIT</p>
 
 </br>
 
@@ -70,5 +70,10 @@
 
 ## <a name="gitHub"></a>GitHub Pages
 <a href="https://grzegorz-jodlowski.github.io/golden-studio/">Golden studio</a>
+
+</br>
+</br>
+
+  *project implemented as part of the 9-month [Web Developer Plus](https://kodilla.com/pl/bootcamp/webdeveloper/?type=wdp&editionId=309) course organized by [Kodilla](https://drive.google.com/file/d/1AZGDMtjhsHbrtXhRSIlRKKc3RCxQk6YY/view?usp=sharing)
 
 

@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://grzegorz-jodlowski.github.io/golden-studio/"><img src="logo3.jpg" title="logo" alt="title with text It's nice to meet you"></a>
+<a href="https://grzegorz-jodlowski.github.io/golden-studio/"><img src="images/logo3.jpg" title="logo" alt="title with text It's nice to meet you"></a>
 </p>
 
 
@@ -12,7 +12,7 @@
 ## Table of Contents
 
 - [What's this project about?](#about)
-- [Technologies used](#technologies)
+- [Technologies used](#tech)
 - [What I learned?](#what)
 - [Interesting code snippet](#interesting)
 - [Installation](#install)
@@ -28,7 +28,7 @@
 
 </br>
 
-## <a name="technologies"></a>Technologies used
+## <a name="tech"></a>Technologies used
 - HTML
 - CSS
 - SCSS
